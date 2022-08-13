@@ -1,1 +1,0 @@
-# gamingovecz.github.io
