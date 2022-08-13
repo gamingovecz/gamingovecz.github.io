@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en" style="zoom: 85%;">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- 🪐 - Description (For SEO) - 🪐 -->  
+    <!---------------------------------------------------------------------->    
+    <meta name="description" content="Bejaland Server. Home Page.">
+    <!----------------------------------------------------------------------> 
+    <!-- 🪐 - Description (For SEO) - 🪐 -->
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/cfb1376d18.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- For the Player Count -->
+    <script src="https://cdn.jsdelivr.net/gh/leonardosnt/mc-player-counter/dist/mc-player-counter.min.js"></script>
+    <!-- Credits: https://github.com/leonardosnt/mc-player-counter -->
+
+    <!-- 🪐 - FavIcon - 🪐 -->  
+    <!---------------------------------------------------------------------->
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <!---------------------------------------------------------------------->    
+    <!-- 🪐 - FavIcon - 🪐 -->
+
+
+    <!-- 🪐 - Website Title - 🪐 -->
+    <!---------------------------------------------------------------------->    
+    <title class='webistetitle'>Bejaland Server</title>                         
+    <!---------------------------------------------------------------------->
+    <!-- 🪐 - Website Title - 🪐 -->    
+
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+
+        <!-- 🪐 - Website Logo - 🪐 -->
+        <!---------------------------------------------------------------------->  
+        <a href="index.html"><img src="img/serverlogo.png" style="width: 50px; padding-right: 10px;"></a>
+        <!---------------------------------------------------------------------->  
+        <!-- 🪐 - Website Logo - 🪐 -->
+        
+        <!-- 🪐 - Navigation Name - 🪐 -->
+        <!---------------------------------------------------------------------->         
+        <a class="navbar-brand" href="home.html">Bejaland Server</a>
+        <!---------------------------------------------------------------------->
+        <!-- 🪐 - Navigation Name - 🪐 -->
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="home.html"><i class="fa-solid fa-house"></i> Domů
+                    <span class="sr-only">(current)</span>
+                  </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://shop.bejaland.eu/"><i class="fa-solid fa-basket-shopping"></i></i> Obchod</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://map.bejaland.eu/"><i class="fas fa-map"></i> DynMap</a>
+            </li>       
+            <li class="nav-item">
+              <a class="nav-link" href="subpages/pravidla.html"><i class="fa-solid fa-book"></i> Pravidla</a>
+            </li>                         
+            <li class="nav-item">
+              <a class="nav-link" href="https://dsc.gg/bejaland"><i class="fa-brands fa-discord"></i> Discord</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa-solid fa-check-to-slot"></i>
+                Hlasování
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="http://vote.bejaland.eu/">Vote 1</a>
+                <a class="dropdown-item" href="http://vote.bejaland.eu/">Vote 2</a>
+                <a class="dropdown-item" href="http://vote.bejaland.eu/">Vote 3</a>				
+              </div>
+            </li>
+			<li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa-solid fa-align-right"></i>
+                Více
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="subpages/cs/staff.html"><i class="fa-solid fa-user-tie"></i> Staff</a>
+                <a class="dropdown-item" href="subpages/cs/novinky.html"><i class="fa-solid fa-newspaper"></i> Novinky</a>
+                <a class="dropdown-item" href="subpages/cs/faq.html"><i class="fa-solid fa-circle-question"></i> FAQ</a>
+				<a class="dropdown-item" href="subpages/cs/wiki.html"><i class="fa-solid fa-circle-info"></i> Wiki</a>
+              </div>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link" href="index.html">  <i class="fa-solid fa-language"></i> English lang</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Top Navigation End -->
+
+    <!-- Carousel Images Starts here (Inside the "header" tag) -->
+    <header>
+      <div id="page" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#page" data-slide-to="0" class="active"></li>
+          <li data-target="#page" data-slide-to="1"></li>
+          <li data-target="#page" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div class="carousel-item active" style="background-image: url(img/slide1.png)">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="display-4">Zábava s přáteli začíná zde</h3>
+              <p class="lead">Připoj se teď!</p>
+            </div>
+          </div>
+          <!-- Slide Two - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url(img/slide2.png)">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="display-4">Vytvoř si vlastní svět</h3>
+              <p class="lead"><br>a začněte se svými přáteli plnit své sny!</p>
+            </div>
+          </div>
+          <!-- Slide Three - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url(img/slide3.png)">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="display-4">Připoj se k naší komunitě</h3>
+              <p class="lead">Jsme přátelská komunita! Pojďme hrát společně!</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#page" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Zpátky</span>
+            </a>
+        <a class="carousel-control-next" href="#page" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Další</span>
+            </a>
+      </div>
+    </header>
+    <!-- Carousel Ends here -->
+	    <div class="px-4 pt-5 my-5 text-center">
+        <h1 class="display-4 fw-bold">Bejaland.eu</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">Jsme minecraft server, který vám umožní hrát na jakémkoli zařízení. Nabízíme vám survival, ale také minihry</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+                <a type="button" class="btn btn-primary btn-lg px-6 me-sm-5" href="subpages/wiki/join"><i class="fa-solid fa-gamepad"></i>  Jak se připojit?</a>
+            </div>
+        </div>
+        <div class="overflow-hidden" style="max-height: 30vh;">
+            <div class="container px-5">
+            </div>
+        </div>
+    </div>
+	    <!-- Player number count and IP -->
+    <section class="container" style="padding-top: 0rem;">
+      <div class="alert alert-info container" role="alert">
+        <!-- 🪐 - Player Count - 🪐 -->
+        <!---------------------------------------------------------------------->
+        Připojte se nyní na <b>mc.Bejaland.eu</b> s ostatními
+        <b><span data-playercounter-ip="mc.Bejaland.eu:25565">Server je nedostupný</span></b> hráči.
+        <!---------------------------------------------------------------------->
+        <!-- 🪐 - Player Count - 🪐 -->
+
+      </div>
+    </section>
+	
+    <!-- Main Features Title -->
+    <section class="py-5" style="margin-top: 1rem;">
+      <div class="container">
+        <h4 class="display-4">Proč Bejaland?</h4>
+      </div>
+    </section>
+    <!-- Main Features -->
+    <section id="whythegrass">
+      <div class="container">
+        <div class="row textgray center">
+          <div class="feature-box col-lg-4">
+            <i class="fas fa-users fa-4x main-f-color" style="margin-top: 5%; box-shadow: none;"></i>
+            <h3 class="textblack">Komunita</h3>
+            <p class="descbox textgray">Přátelská komunita, která tě nezklame</p>
+          </div>
+          <div class="feature-box col-lg-4">
+            <i class="fas fa-gamepad fa-4x main-f-color" style="margin-top: 5%; box-shadow: none;"></i>
+            <h3 class="textblack">Hraj kdekoliv</h3>
+            <p class="descbox textgray">S námi můžete hrát kdekoli a na čem chcete. Je jedno, jestli jste na dovolené u moře a máte jen mobil.</p>
+          </div>
+          <div class="feature-box col-lg-4">
+            <i class="fas fa-heart fa-4x main-f-color" style="margin-top: 5%; box-shadow: none;"></i>
+            <h3 class="textblack">Přatelský staff tým.</h3>
+            <p class="descbox textgray">Staff, který vám vždy pomůže se vším, co potřebujete.</p>
+          </div>        
+        </div>
+      </div>
+    </section>
+
+    <!-- News Section Title -->
+    <section class="py-5" style="margin-top: 1rem;">
+      <div class="container">
+        <h4 class="display-4">Novinky</h4>
+        <p class="lead">Novinky jdou z pece!</p>
+      </div>
+    </section>
+
+    <!-- News Section -->
+    <section>
+            <div class="container">
+              <div class="row">
+                <div class="col left col-sm-12 col-lg-6">
+                  <img src="img/minecraft-chest.jpg" alt="" srcset="" class="img-news">
+                </div>
+                <div class="col left col-sm-12 col-lg-6">
+                  <!-- News Title -->
+                  <h4>
+                    Vlastní svět
+                  </h4>
+                  <!-- News content -->
+                  <p>
+                    Na server byla přidána možnost vytvořit si vlastní svět. 
+					<br>
+					Tato funkce je možná pouze pro Diamond rank a World rank.
+					<br>
+					Svět je neomezený a nekonečný (včetně vlastního netheru a endu), bohužel bez DynMapy. 
+					<br>
+					Tato funkce je ve fázi testování, a proto uvítáme vaši zpětnou vazbu na našem serveru Discord <a href="https://dsc.gg/bejaland">zde</a>.
+					<br>
+					Samozřejmě můžete hrát s přáteli ve světě pomocí <code><span style="color: rgb(75, 172, 198);">/tpa</span></code> a <code><span style="color: rgb(75, 172, 198);">/home</span></code>, kdy se kamarád teleportuje na vlastníka světa. 
+					<br>
+					Svět bude smazán po 15 dnech po vypršení ranku. Svět vytvoříte pomocí příkazu <code><span style="color: rgb(75, 172, 198);">/svet create</span></code> . Pro další užitečné příkazy použijte <code><span style="color: rgb(75, 172, 198);">/svet help</span></code>.
+                  </p>
+                </div>
+              </div>
+            </div>
+      </div>
+    </section>
+
+    <section class="py-5" style="margin-top: 1rem;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <h4 class="display-4">Nabízíme</h4>
+            <p class="lead"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section>
+      <div class="container">
+        <div class="row center container" style="margin-right: 0px; margin-left: 0px;">
+          <!-- Item starts -->
+          <div class="textblack main-f-color featureboxes col-sm-12 col-md-4">
+            <img class="img-featureboxes" src="img/survival.png" alt="" srcset="" style="padding-top: 10px;">
+            <h5 class="textblack">Survival</h5>
+            <p class="textblack">
+			  Hrajte se svými přáteli a vytvořte si své království
+            </p>
+          </div>
+          <!-- Item Ends -->
+          <!-- Item starts -->
+          <div class="textblack main-f-color featureboxes col-sm-12 col-md-4">
+            <img class="img-featureboxes" src="img/own.png" alt="" srcset="" style="padding-top: 10px;">
+            <h5 class="textblack">Vlastní survival svět</h5>
+            <p class="textblack">
+              Buďte pánem svého vlastního světa.
+              <br>
+			  Bez limitů!
+            </p>
+          </div>
+          <!-- Item Ends -->
+          <div class="textblack main-f-color featureboxes col-sm-12 col-md-4">
+            <img class="img-featureboxes" src="img/bedwars.png" alt="" srcset="" style="padding-top: 10px;">
+            <h5 class="textblack">BedWars</h5>
+            <p class="textblack"> 
+			  Chraňte svou postel a zničte
+			  <br>
+			  nepřátelskou postel
+            </p>
+          </div>
+          <!-- Item Ends -->     
+          <!-- Item Ends -->
+          <div class="textblack main-f-color featureboxes col-sm-12 col-md-4">
+            <img class="img-featureboxes" src="img/blockparty.png" alt="" srcset="" style="padding-top: 10px;">
+            <h5 class="textblack">Block Party</h5>
+            <p class="textblack"> 
+			  Postavte se na barevný blok, který je oznámen před vypršením času, jinak budete VYŘAZENI!
+            </p>
+          </div>
+          <!-- Item Ends -->   
+          <!-- Item Ends -->
+          <div class="textblack main-f-color featureboxes col-sm-12 col-md-4">
+            <img class="img-featureboxes" src="img/bomblobbers.png" alt="" srcset="" style="padding-top: 10px;">
+            <h5 class="textblack">Bomb Lobbers</h5>
+            <p class="textblack">
+			  Bojujte proti svým nepřátelům pomocí síly výbušnin! Hoďte TNT na svého nepřítele. Poslední živý tým vyhrává!
+            </p>
+          </div>
+          <!-- Item Ends -->   
+          <!-- Item Ends -->
+          <div class="textblack main-f-color featureboxes col-sm-12 col-md-4">
+            <img class="img-featureboxes" src="img/miniwalls.png" alt="" srcset="" style="padding-top: 10px;">
+            <h5 class="textblack">Mini Walls</h5>
+            <p class="textblack">
+			  Chraňte svého Mini Withera a zabíjejte ostatní hráče, abyste vyhráli. Můžete se respawnovat, dokud je váš Mini Wither naživu!
+            </p>
+          </div>
+          <!-- Item Ends -->
+          <!-- Item Ends -->
+          <div class="textblack main-f-color featureboxes col-sm-12 col-md-4">
+            <img class="img-featureboxes" src="img/partygames.png" alt="" srcset="" style="padding-top: 10px;">
+            <h5 class="textblack">Party Games</h5>
+            <p class="textblack">
+			  Kolekce 8 náhodných miniher. Získejte hvězdy/body v každé hře a staňte se konečným vítězem
+            </p>
+          </div>
+          <!-- Item Ends -->
+          <!-- Item Ends -->
+          <div class="textblack main-f-color featureboxes col-sm-12 col-md-4">
+            <img class="img-featureboxes" src="img/quake.png" alt="" srcset="" style="padding-top: 10px;">
+            <h5 class="textblack">Quake</h5>
+            <p class="textblack">
+			  Zastřelte nepřítele dříve, než oni zastřelí vás!
+            </p>
+          </div>
+          <!-- Item Ends -->
+          <!-- Item Ends -->
+          <div class="textblack main-f-color featureboxes col-sm-12 col-md-4">
+            <img class="img-featureboxes" src="img/tnttag.png" alt="" srcset="" style="padding-top: 10px;">
+            <h5 class="textblack">TnT Tag</h5>
+            <p class="textblack"> 
+			  Vyhněte se hráčům s TNT na hlavě! pokud vás zasáhnou, zkuste označit jiného hráče, než TNT exploduje!
+            </p>
+          </div>
+          <!-- Item Ends -->
+          <!-- Item Ends -->
+          <div class="textblack main-f-color featureboxes col-sm-12 col-md-4">
+            <img class="img-featureboxes" src="img/thelab.png" alt="" srcset="" style="padding-top: 10px;">
+            <h5 class="textblack">TheLab</h5>
+            <p class="textblack">
+			  TheLab je minihra, kterou provozuje náš místní vědecký expert, Dr. Zuk! A potřebuje vaši pomoc! Zuk pracoval na mnoha úžasných nových vzrušujících vynálezech, ale nejsou vyzkoušeny. Půjdeš je vyzkoušet?
+            </p>
+          </div>
+          <!-- Item Ends -->   		  
+        </div>
+      </div>     
+    </section>
+
+
+    <section class="py-5" style="margin-top: 1rem;">
+      <div class="container">
+        <h4 class="display-4"></h4>
+        <p class="lead"></p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small bg-dark pt-4">
+      <!-- Footer Elements -->
+      <div class="container">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-md-6 mb-4">
+            <h4 style="color: white;">Bejaland</h4>
+            <p class="textgray">
+              Server byl zveřejněn 1. září 2022
+              <br>
+              Budeme rádi, když si s námi zahrajete a budete součástí naší komunity
+			  <br>
+			  Vezměte prosím na vědomí, že nejsme žádným způsobem spojeni s Mojang AB. 
+            </p>
+          </div>
+          <!--Grid column-->
+          <!--Grid column-->
+          <div class="col-md-6 mb-4">
+            <h4 style="color: white;">Připoj se k nám!</h4><br>
+            <div class="row">
+              <!-- Discord icon -->              
+              <div class="col-sm-12 col-md-3">
+                <a class="medias" href="https://dsc.gg/bejaland">
+                  <i class="fab fa-discord fa-2x" style="color: #7289DA;"></i>
+                  Discord
+                </a>
+              </div>                                       
+            </div>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Footer Elements -->
+      <div class="footer-copyright page-footer text-center py-3" style="color: white; background-color: rgb(37, 41, 46);">
+        © 2022 Copyright:
+        <a href="index.html">Bejaland Server</a>
+      </div>
+    </footer>
+    <!-- Footer -->
+    <!-- Staff Cards Propouses -->
+    <style>
+      .card {
+        margin-top: 10px;
+        transition: 0.5s;
+      }
+      
+      .card:hover {
+        transform: scale(1.01);
+        transition: 0.5s;
+      }
+    </style>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS, then Playercount -->
+    <script type="text/javascript" src="js/playercount.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
