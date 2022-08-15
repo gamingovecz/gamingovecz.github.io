@@ -96,3 +96,7 @@
 .card-img-top {
   height: 50px 50px;
 }
+}
+.img-cover img {
+  width: 100%;
+}
