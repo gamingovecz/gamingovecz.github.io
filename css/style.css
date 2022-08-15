@@ -156,3 +156,7 @@ section div {
   align-content: center;
   padding-top: 1rem;
 }
+}
+.img-cover img {
+  width: 100%;
+}
