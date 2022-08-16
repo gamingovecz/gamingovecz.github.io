@@ -156,7 +156,7 @@
     align-content: center;
     padding-top: 1rem;
   }
-.img-cover {
-  max-width: 100%; 
-  height: auto;
-}
+  .img-cover {
+    max-width: 100%; 
+    height: auto;
+  }
